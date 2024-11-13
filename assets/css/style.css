@@ -111,6 +111,67 @@
 
 }
 
+/* General Styling */
+.skills-section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #fff; /* White text */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.skills-category h4 {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: var(--vegas-gold);
+  margin-bottom: 8px;
+  border-bottom: 2px solid var(--vegas-gold);
+  padding-bottom: 5px;
+}
+
+.skills-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.skills-category ul li {
+  font-size: 1em;
+  color: #fff; /* White text */
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.skills-category ul li i {
+  color: var(--vegas-gold);
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-section {
+      margin: 10px;
+      padding: 15px;
+  }
+  .skills-title {
+      font-size: 1.6em;
+  }
+  .skills-category h4 {
+      font-size: 1.2em;
+  }
+  .skills-category ul li {
+      font-size: 0.95em;
+  }
+}
 
 
 
@@ -1879,4 +1940,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+  
+  
+  }
+
+  
 }
