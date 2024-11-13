@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/cv/462587062_1231927641402051_1686077971639742027_n.png" alt="Thiramet Phutong" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Thiramet Phuthong">Thiramet Phuthong</h1>
+          <p style="color: #ddcc6b; font-size: small; text-align: center;">Full stack developer, AI developer, Data scientist, Graphic Designer</p>
+          <br>
+          <a href="./assets/cv/CV THIRAMET PHUTHONG .pdf" download>
+            <button class="title">
+                Download CV
+            </button>
+        </a>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">thirametphuthong@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+66 97-3068503</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 27, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ladprao, Bangkok, THA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Highly skilled AI Engineer and Software Developer with extensive
+            experience in front-end/back-end development, machine learning,
+            and data science. Proficient in Python, C++, JavaScript,
+            and TypeScript. Experienced in developing web applications, AI models, 
+            and cloud solutions. Recognized for exceptional performance in hackathons and bootcamps, with a strong background in AI-driven projects. Fluent in Thai and proficient in English, with interests in LLM deep learning, and quantitative algorithm trading.
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Ai Developer</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic desginer</h4>
+
+                <p class="service-item-text">
+                  I make high-quality graphic design design at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Phitsanulok Phitayakom</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                study in field of math/science in high school
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ramkumhang univercity</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                Ramkhamhaeng University Bachelor of Computer Science  
+              </p>
+              <span>Expected Graduation: WINTER 2025</span>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">  
+              <div class="timeline-text">
+                <h3>BAAC (Bank for Agriculture and Agricultural Co-operatives) - AI Engineer</h3>
+                <span>August 2024 - October 2024</span>
+                <br>
+                <ul>
+                    <li><h5>Developed a RAG Chatbot:</h5> Created an AI chatbot for internal information retrieval using FAISS, OpenSearch, and LangChain.</li>
+                    <br><li><h5>Implemented Vector Search as Search Engine:</h5> Built a fast, efficient document search engine using vector embeddings with FAISS/OpenSearch.</li>
+                    <br><li><h5>Developed a Web App with React:</h5> Built a responsive web interface for chatbot and search functionality.</li>
+                    <br><li><h5>Set Up a CI/CD Pipeline:</h5> Automated development and deployment using GitLab CI for an efficient workflow.</li>
+                    <br><li><h5>Dockerized Production Environment:</h5> Deployed scalable, consistent Docker containers for production.</li>
+                </ul>
+              </div>
+            </li>
+          
+
+            <li class="timeline-item">
+              <h4 class="h3 timeline-item-title">Pun center</h3>
+              <span>2023 — Present</span>
+              <br>
+              <div class="timeline-text">
+                <h5>Website Developer (WordPress)</h5>
+                <ul>
+                    <li>Designed and maintained websites using WordPress, enhancing user experience and functionality.</li>
+                    <br><li><a style="color: #ffe02d;" href="https://www.eventnaka.com" target="_blank">  - www.eventnaka.com</a></li>
+                    <li><a style="color: #ffe02d;" href="https://www.freelancekub.com" target="_blank">  - www.freelancekub.com</a></li>
+                </ul>
+                <br>
+                <h5>Lecturer</h5>
+                <p>Delivered lectures on various IT topics, sharing knowledge and expertise with students.</p>
+                <br>
+                <h5>Tutor</h5>
+                <p>Provided one-on-one tutoring sessions to help students and staff improve their technical skills.</p>
+                <br>
+                <h5>IT Support</h5>
+                <p>Managed IT tasks including troubleshooting, system maintenance, and technical support, ensuring smooth daily operations.</p>
+                <br>
+                <h5>Volunteer Experience</h5>
+                <ul>
+                    <li><strong>Debsirin School</strong>: Taught AI application development and WordPress web development.</li>
+                </ul>
+            </div>
+            </li>
+
+            <li class="timeline-item">
+              <div class="timeline-text">
+                <h4>Graphic Designer (Freelance)</h4>
+                <span>2022 - Present</span>
+                <br>
+                <ul>
+                    <li><h5>Specialization:</h5> UX/UI design, logo creation, banner design, and packaging.</li>
+                    <br><li><h5>Client Collaboration:</h5> Work closely with clients to understand their vision and deliver custom design solutions.</li>
+                    <br><li><h5>Project Management:</h5> Handle multiple projects simultaneously, ensuring timely delivery and client satisfaction.</li>
+                </ul>
+            </div>            
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skills-section">
+          <h3 class="skills-title">Skills</h3>
+          
+          <div class="skills-category">
+              <h4>Language Skills</h4>
+              <ul>
+                  <li><i class="fas fa-language"></i> Thai (native)</li>
+                  <li><i class="fas fa-language"></i> English (intermediate)</li>
+              </ul>
+          </div>
+          
+          <div class="skills-category">
+              <h4>Programming Languages</h4>
+              <ul>
+                  <li><i class="fas fa-code"></i> Python (intermediate)</li>
+                  <li><i class="fas fa-code"></i> C++ (intermediate)</li>
+                  <li><i class="fas fa-code"></i> Java (intermediate)</li>
+                  <li><i class="fas fa-code"></i> JavaScript (intermediate)</li>
+                  <li><i class="fas fa-code"></i> TypeScript (intermediate)</li>
+              </ul>
+          </div>
+          
+          <div class="skills-category">
+              <h4>Frontend Developer Skills</h4>
+              <ul>
+                  <li><i class="fas fa-paint-brush"></i> HTML</li>
+                  <li><i class="fas fa-paint-brush"></i> CSS</li>
+                  <li><i class="fas fa-paint-brush"></i> TailwindCSS</li>
+              </ul>
+          </div>
+          
+          <div class="skills-category">
+              <h4>DevOps Skills</h4>
+              <ul>
+                  <li><i class="fas fa-server"></i> Linux (I'm using Arch btw.)</li>
+                  <li><i class="fas fa-cloud"></i> Cloud computing</li>
+                  <li><i class="fas fa-box"></i> Docker</li>
+                  <li><i class="fas fa-cogs"></i> Jenkins</li>
+                  <li><i class="fas fa-code-branch"></i> Git</li>
+              </ul>
+          </div>
+          
+          <div class="skills-category">
+              <h4>Data and Machine Learning Skills</h4>
+              <ul>
+                  <li><i class="fas fa-database"></i> Data science</li>
+                  <li><i class="fas fa-filter"></i> Data cleansing</li>
+                  <li><i class="fas fa-chart-line"></i> Data analyzing</li>
+                  <li><i class="fas fa-chart-pie"></i> Data visualization</li>
+                  <li><i class="fas fa-tools"></i> Feature engineering</li>
+                  <li><i class="fas fa-robot"></i> Machine learning</li>
+                  <li><i class="fas fa-brain"></i> Supervised learning</li>
+                  <li><i class="fas fa-brain"></i> Unsupervised learning</li>
+                  <li><i class="fas fa-signal"></i> Signal processing</li>
+                  <li><i class="fas fa-brain"></i> Large language models</li>
+              </ul>
+          </div>
+          
+          <div class="skills-category">
+              <h4>Computer Literacy</h4>
+              <ul>
+                  <li><i class="fas fa-laptop"></i> Azure Machine Learning Studio</li>
+                  <li><i class="fas fa-cloud"></i> Google Cloud Vertex</li>
+                  <li><i class="fas fa-file"></i> Microsoft Office software</li>
+              </ul>
+          </div>
+          
+          <div class="skills-category">
+              <h4>Interests</h4>
+              <ul>
+                  <li><i class="fas fa-lightbulb"></i> AIOT</li>
+                  <li><i class="fas fa-lightbulb"></i> Supervised learning</li>
+                  <li><i class="fas fa-lightbulb"></i> Deep learning</li>
+                  <li><i class="fas fa-lightbulb"></i> Data</li>
+                  <li><i class="fas fa-chart-line"></i> Quantitative Algorithm Trade</li>
+              </ul>
+          </div>
+      </section>
+      
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certificated</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Hackathon & Pitching</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Certificated</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Hackathon & Pitching</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.eventnaka.com" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/eventnaka.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Eventnaka.com</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.freelancekub.com" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/freelancekub.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Freelancekub.com</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Hackathon & Pitching">
+              <a href="https://drive.google.com/file/d/1REuJ3wXdH3vdoY9e_D7Wfh68NI3BS6vw/view" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/241113_13h45m22s_screenshot.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Super AI enginner ss4 - Ai Developer</h3>
+
+                <p class="project-category">Certificated</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Hackathon & Pitching">
+              <a href="https://www.linkedin.com/posts/thiramet-phuthong-a17985280_%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%82%E0%B8%87%E0%B8%82%E0%B8%99-hackathon-ai-for-human-activity-activity-7255553692966268928-T_Ce?utm_source=share&utm_medium=member_desktop" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/1729858097921.jpeg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Human Activity Recognition (HAR)</h3>
+
+                <p class="project-category">Hackathon & Pitching</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Hackathon & Pitching">
+              <a href="https://www.linkedin.com/posts/thiramet-phuthong-a17985280_ai-thailand-forum-thailand-2024-super-ai-activity-7255982821083684864-QFO2?utm_source=share&utm_medium=member_desktop" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/img/462559268_888194260107733_3341962788462802157_n.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SUPER AI ENGINEER Startup Incubation 2024</h3>
+
+                <p class="project-category">Hackathon & Pitching</p>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30994.262676841852!2d100.61268664999997!3d13.822047650000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d8271afaf03%3A0x30100b25de24fe0!2z4LmA4LiC4LiV4Lil4Liy4LiU4Lie4Lij4LmJ4Liy4LinIOC4geC4o-C4uOC4h-C5gOC4l-C4nuC4oeC4q-C4suC4meC4hOC4oyAxMDIzMA!5e0!3m2!1sth!2sth!4v1731479479422!5m2!1sth!2sth"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-input>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
